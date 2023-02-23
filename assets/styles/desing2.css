@@ -2,14 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
 }
 
 .main-title{ 
     font-size: 50px;
     margin: 30px 60px 20px 60px;
     display: flex;
-    justify-content: center;  
+    justify-content: center; 
 }
  
 
@@ -71,6 +72,16 @@
     border: solid 2px black;
 }
 
+.registration-button{
+    font-size: 20px;
+    margin: 10px 10px 0px 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(84, 89, 219);
+    border: solid 2px black;
+}
+
 .img-nav{
     display: flex;
     justify-content: center;
@@ -85,7 +96,7 @@
     border: 5px solid black; 
     margin: 0 60px 0 60px;
     display: flex;
-    justify-content: center;  
+    justify-content: center;   
 }
 
 .section-ppal{
@@ -117,6 +128,7 @@
     margin-left: 70px;
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .logo-rules{
@@ -200,4 +212,24 @@ th,td{
     flex-direction: column;
     align-items: center;    
 }
+
+.section-form{
+    font-size: 20px;
+    width: 700px;
+    margin: 0 700px 0 700px;
+}
  
+.uniformSize-box{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.maps-schedule{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.maps-boxes{ 
+    padding: 20px;
+}
